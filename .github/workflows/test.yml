@@ -4,7 +4,7 @@ name: 'Publish Release'
 on:
   push:
     branches:
-      - release
+      - main
 
 # We do 3 jobs sequentially,
 # 1. Draft a release on CrabNebula Cloud
